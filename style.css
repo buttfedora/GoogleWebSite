@@ -1,12 +1,37 @@
 .navbar {
-
+    
 }
 .topnavbar {
-
+    list-style-type: none;
+    margin: 5px;
+    padding: 5px;
 }
 .topright {
-
+    float: right;
+    padding: 5px;
 }
 .topleft {
+    float: left;
+    padding: 5px;
+}
+.content {
     
+}
+
+#google-apps {
+    height: 15px;
+    width: 15px;
+
+}
+
+#signinbox {
+    display: block;
+    border-width: 1px;
+    border-color: #4285f4;
+    border-style: solid;
+    background-color: #4683ea;
+    border-radius: 2px;
+    padding: 6px 12px;
+    font-weight: bold;
+    color: white;
 }
