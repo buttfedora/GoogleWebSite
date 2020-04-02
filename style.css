@@ -3,8 +3,11 @@
 }
 .topnavbar {
     list-style-type: none;
+    display: block;
+    height: 100px;
     margin: 5px;
     padding: 5px;
+    background-color: violet;
 }
 .topright {
     float: right;
@@ -15,7 +18,32 @@
     padding: 5px;
 }
 .content {
-    
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    width: 500px;
+    background-color: tomato;
+    grid-template-areas: 
+    "logo logo"
+    "searchbar searchbar"
+    "searchb" "lucky";
+    align-items: center;
+    padding: 5px 5px;
+    margin: 20px;
+}
+
+.logo {
+    grid-area: logo;
+}
+.searchbar {
+    grid-area: searchbar;
+}
+.search {
+    grid-area: searchb;
+}
+.luckyb {
+    grid-area: lucky;
 }
 
 #google-apps {
